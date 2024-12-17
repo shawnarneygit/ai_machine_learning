@@ -1,6 +1,6 @@
 # Will a driver accept the coupon?
 
-**Jupyter Notebook with code, and data visualizations and analysis: [here](https://github.com/shawnarneygit/ai_machine_learning).**
+**Jupyter Notebook with code, and data visualizations and analysis: [here](https://github.com/shawnarneygit/ai_machine_learning/blob/master/coupons.ipynb).**
 
 ## Business Goal
 Distinguish between customers who accepted a driving coupon versus those who did not.

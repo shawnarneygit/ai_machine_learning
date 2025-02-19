@@ -3,7 +3,7 @@ For dealerships to determine the vehicles features, that drive used car prices.
 
 We use a dataset of used car features and prices.  To analyze and create a model.  To determine the predictive features for used car prices.  
 
-**Jupyter Notebook with code, and data visualizations and analysis: [here](https://github.com/shawnarneygit/ai_machine_learning/blob/master/used_car_prices/used_car_prices.ipynb).**
+**Jupyter Notebook with code, and data visualizations and analysis: [here](used_car_prices.ipynb).**
 
 ## Business Goal
 Determine the predictive features for used car prices.
@@ -13,7 +13,7 @@ Determine the predictive features for used car prices.
 ## Data
 The dataset is from Kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing.
 
-[Vehicle dataset](https://github.com/shawnarneygit/ai_machine_learning/blob/master/used_car_prices/data/vehicles.csv)
+[Vehicle dataset](data/vehicles.csv)
 
 ## Modeling and performance
 To determine the features that most impact the pricing of used cars.  

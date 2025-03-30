@@ -1,6 +1,6 @@
 # During a marketing campaign, will a bank client subscribe to a term deposit?
 
-**Jupyter Notebook with code, and data visualizations and analysis: [here](https://github.com/shawnarneygit/ai_machine_learning/blob/master/coupons.ipynb).**
+**Jupyter Notebook with code, and data visualizations and analysis: [here](https://github.com/shawnarneygit/ai_machine_learning/tree/master/prompt_three/prompt_III.ipynb).**
 
 ## Business Goal
 In order to focus effort and limited resources on the most likely bank clients for marketing campaign.

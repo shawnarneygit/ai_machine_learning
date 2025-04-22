@@ -17,11 +17,11 @@ Data sources include free and paid bitcoin historical data.  And may include add
 Providing bitcoin historical prices, volume data, technical indicators (RSI), open interest ratios, liquidity levels, the order book, on chain activity, options and their expirations, and market sentiment.  
 
 Including these data sources:
-https://github.com/ff137/bitstamp-btcusd-minute-data
-https://finance.yahoo.com
-https://www.bybit.com/future-activity/en/developer
-https://hyblockcapital.com/api-explorer
-https://api.santiment.net
+- https://github.com/ff137/bitstamp-btcusd-minute-data
+- https://finance.yahoo.com
+- https://www.bybit.com/future-activity/en/developer
+- https://hyblockcapital.com/api-explorer
+- https://api.santiment.net
 
 #### Methodology
 Bitcoin price prediction will be approached from many different angles.  
@@ -60,7 +60,7 @@ What suggestions do you have for next steps?
 
 #### Outline of project
 
-- [Notebook](https://github.com/shawnarneygit/ai_machine_learning/blob/master/bitcoin/bitcoin.ipynb)
+- [Bitcoin Notebook](https://github.com/shawnarneygit/ai_machine_learning/blob/master/bitcoin/bitcoin.ipynb)
 
 
 ##### Contact and Further Information

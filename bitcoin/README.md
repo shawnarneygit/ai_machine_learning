@@ -51,16 +51,16 @@ Support Vector Machine Models, and others as needed.
 #### Results
 Predicting the actual future price of bitcoin, for a daily time frame.
 
+Initial Model using SARIMAX has a MAPE of 1.91%.
 
+![sarimax](images/sarimax_results.jpg)
 
 #### Next steps
 What suggestions do you have for next steps?
 
 #### Outline of project
 
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
+- [Notebook](https://github.com/shawnarneygit/ai_machine_learning/blob/master/bitcoin/bitcoin.ipynb)
 
 
 ##### Contact and Further Information

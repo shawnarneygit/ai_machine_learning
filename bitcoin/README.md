@@ -4,6 +4,8 @@
 Shawn Arney
 
 #### Executive summary
+To predict tomorrow’s Bitcoin price, a benchmark and many regression models are evaluated to identify the best-performing one.
+
 Benchmarking SARIMAX against SVR, linear, ridge, Lasso, random forest, gradient boosting, XGBoost, and an LSTM for next-day Bitcoin closing-price forecasting, SARIMAX achieved an MAE of $898.27 (MAPE 1.77%); the best alternative, Lasso, trimmed MAE by only $2 at the same MAPE. SARIMAX remains a robust baseline, with future work focusing on richer features and advanced ensembles to further reduce error.
 
 #### Rationale
@@ -13,7 +15,7 @@ Forecasting Bitcoin’s future value is crucial for safeguarding one’s investm
 Predicting tomorrow's closing price for Bitcoin.
 
 #### Data Sources
-Data sources include Bitcoin historical pricing data. 
+Data sources include Bitcoin historical pricing data.  For 1/1/2012 thru 4/18/2024.
 
 Providing Bitcoin historical prices, volume data, and the funding rate for Bitcoin (Binance Futures, cost to borrow Bitcoin).  
 

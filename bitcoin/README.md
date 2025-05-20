@@ -1,4 +1,4 @@
-### Predicting the directional and future price of bitcoin.
+### Predicting tommorow's Bitcoin price.
 
 **Author**
 Shawn Arney
@@ -9,49 +9,46 @@ Shawn Arney
 Forecasting Bitcoin’s future value is crucial for safeguarding one’s investments in Bitcoin.
 
 #### Research Question
-Predicting the future price for bitcoin.  Firstly, predicting whether the bitcoin price will decline or increase in value, and for what time frames.  And secondly, predicting the actual future price of bitcoin, for a time frame.
+Predicting the tomorrow's closing price for Bitcoin
 
 #### Data Sources
-Data sources include free and paid bitcoin historical data.  And may include additional data sets, as required.  
+Data sources include Bitcoin historical pricing data. 
 
-Providing bitcoin historical prices, volume data, technical indicators (RSI), open interest ratios, liquidity levels, the order book, on chain activity, options and their expirations, and market sentiment.  
+Providing Bitcoin historical prices, volume data, and the funding rate for Bitcoin (Binance Futures, cost to borrow).  
 
-Including these data sources:
+*Including these data sources:*
+Bitcoin Historical Data:
 - https://github.com/ff137/bitstamp-btcusd-minute-data
-- https://finance.yahoo.com
-- https://www.bybit.com/future-activity/en/developer
-- https://hyblockcapital.com/api-explorer
-- https://api.santiment.net
+
+Additional Funding Rate Data, from Binance Futures API:
+- https://github.com/jesusgraterol/binance-futures-dataset-builder
 
 #### Methodology
 Bitcoin price prediction will be approached from many different angles.  
 
-And includes:
+*And includes:
 
-Data import and clean up from api's and csv data sources.
+Data import and clean up from exchange api's and csv data sources.
 
 Variance-Covariance matrixes to determine correlations with features.
 
 Time-series Forecasting.
 
-Statistical on chain analysis of bitcoin flow, the order book, open interest, volume, and liquidity levels.  
+Model Explorations Include:
+Sarimax
+GridSearchCV, Linear Regression, Ridge and Lasso Regression, Random Forest Regressor, Gradient Boosting Regressor, XGBoost Regressor
 
-News/Sentiment from X.com
+Support Vector Regression Model.
 
-Independent features for the day of week, time of day. Using auto regressive feature selection.
-
-Sophisticated Indicators currently used for price prediction in trading.  Including RSI and The Demark(R) Indicator.
-
-Exogenous Regression
-
-GridSearchCV, Linear Regression
-
-Support Vector Machine Models, and others as needed.
+Hyperband tuner, Long Short-Term Memory (LSTM) Model
 
 #### Results
-Predicting the actual future price of bitcoin, for a daily time frame.
+Predicting tomorrow's closing price of Bitcoin, for a daily time frame.
 
-Initial Model using SARIMAX has a MAPE of 1.91%.
+Initial Model using SARIMAX has a Mean Absolute Percentage Error (MAPE) of 1.77%.
+The Mean Absolute Error (MAE) is 898.27.
+
+What this means in dollar terms is that our initial model, has an error rate within $898.27 US Dollars.
 
 ![sarimax](images/sarimax_results.jpg)
 
@@ -62,7 +59,8 @@ What suggestions do you have for next steps?
 
 - [Bitcoin Notebook](https://github.com/shawnarneygit/ai_machine_learning/blob/master/bitcoin/bitcoin.ipynb)
 
-
 ##### Contact and Further Information
 Shawn Arney
 Shawn@ArneyConsulting.com
+
+https://www.linkedin.com/in/shawnarney/

@@ -9,7 +9,7 @@ Shawn Arney
 Forecasting Bitcoin’s future value is crucial for safeguarding one’s investments in Bitcoin.
 
 #### Research Question
-Predicting the tomorrow's closing price for Bitcoin
+Predicting tomorrow's closing price for Bitcoin
 
 #### Data Sources
 Data sources include Bitcoin historical pricing data. 

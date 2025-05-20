@@ -24,23 +24,25 @@ Additional Funding Rate Data, from Binance Futures API:
 - https://github.com/jesusgraterol/binance-futures-dataset-builder
 
 #### Methodology
-Bitcoin price prediction was approached from many different angles.  By exploring various regression models using supervised learning.  And using gridsearchCV with cross validation of 5, to test various parameters for all the models being evaluated.  And neg_mean_absolute_error and mean_absolute_error being used for model evaluation.
+Bitcoin price prediction was approached from many different angles.  By exploring various regression models using supervised learning.  
+
+And using gridsearchCV with cross validation of 5, to test various parameters for all the models being evaluated.  And neg_mean_absolute_error and mean_absolute_error being used for model evaluation.
 
 *And includes:*
 
-**Data Cleanup and Feature Selection**
-Data Import from CSV Data Sources and Exchange API's
-Data cleanup, including dropping duplicates and setting Null values to 0
-Data aggregation of bitcoin minute data to daily data
-Data Feature Engineering columns 
-Data is split into training and test splits, with 20% set aside for testing
-And Data is encoded with a standard scaler for model processing
+**Data Cleanup and Feature Selection:**
+- Data Import from CSV Data Sources and Exchange API's
+- Data cleanup, including dropping duplicates and setting Null values to 0
+- Data aggregation of bitcoin minute data to daily data
+- Data Feature Engineering columns 
+- Data is split into training and test splits, with 20% set aside for testing
+- And Data is encoded with a standard scaler for model processing
 
-**Analysis includes**
-Variance-Covariance matrixes to determine correlations with column features
-Cross Validation of 5 and neg_mean_absolute error and mean_absolute_error for model evaluation
+**Analysis includes:**
+- Variance-Covariance matrixes to determine correlations with column features
+- Cross Validation of 5 and neg_mean_absolute error and mean_absolute_error for model evaluation
 
-**Models Evaluated Include**
+**Models Evaluated Include:**
 - Sarimax
 - GridSearchCV for:
     - Support Vector Regression 

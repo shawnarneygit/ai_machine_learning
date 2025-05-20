@@ -4,6 +4,7 @@
 Shawn Arney
 
 #### Executive summary
+Benchmarking SARIMAX against SVR, linear, ridge, Lasso, random forest, gradient boosting, XGBoost, and an LSTM for next-day Bitcoin closing-price forecasting, SARIMAX achieved an MAE of $898.27 (MAPE 1.77%); the best alternative, Lasso, trimmed MAE by only $2 at the same MAPE. SARIMAX remains a robust baseline, with future work focusing on richer features and advanced ensembles to further reduce error.
 
 #### Rationale
 Forecasting Bitcoin’s future value is crucial for safeguarding one’s investments in Bitcoin.
@@ -26,7 +27,7 @@ Additional Funding Rate Data, from Binance Futures API:
 #### Methodology
 Bitcoin price prediction was approached from many different angles.  By exploring various regression models using supervised learning.  
 
-And by using gridsearchCV with cross validation of 5, to tune parameters for evaluated models.  And neg_mean_absolute_error and mean_absolute_error was used for model evaluation.
+And by using **GridsearchCV** with **cross validation of 5**, to tune parameters for evaluated models.  And **neg_mean_absolute_error** and **mean_absolute_error** were used for model evaluation.
 
 *And includes:*
 
@@ -56,17 +57,16 @@ And by using gridsearchCV with cross validation of 5, to tune parameters for eva
     - Long Short-Term Memory (LSTM) Model
 
 #### Results
-Predicting tomorrow's closing price of Bitcoin, for a daily time frame.
+Predicting the next day’s Bitcoin closing price on a daily timeframe, our SARIMAX baseline achieved a MAPE of 1.77% and an MAE of $898.27. 
 
-Initial Model using SARIMAX has a Mean Absolute Percentage Error (MAPE) of 1.77%.
-The Mean Absolute Error (MAE) is 898.27.
+A Lasso regression model offered only a marginal improvement—reducing MAE by about $2—while matching the same 1.77% MAPE. 
 
-Our initial model, has an error rate within $898.27 US Dollars.
+Overall, SARIMAX remains a strong benchmark for daily Bitcoin price forecasts.
 
 ![sarimax](images/sarimax_results.png)
 
 #### Next steps
-What suggestions do you have for next steps?
+Either the SARIMAX model or the Lasso regression can be used to forecast tomorrow’s Bitcoin closing price, with an expected mean absolute error of about $898.27.
 
 #### Outline of project
 

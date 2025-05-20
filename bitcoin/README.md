@@ -9,12 +9,12 @@ Shawn Arney
 Forecasting Bitcoin’s future value is crucial for safeguarding one’s investments in Bitcoin.
 
 #### Research Question
-Predicting tomorrow's closing price for Bitcoin
+Predicting tomorrow's closing price for Bitcoin.
 
 #### Data Sources
 Data sources include Bitcoin historical pricing data. 
 
-Providing Bitcoin historical prices, volume data, and the funding rate for Bitcoin (Binance Futures, cost to borrow).  
+Providing Bitcoin historical prices, volume data, and the funding rate for Bitcoin (Binance Futures, cost to borrow Bitcoin).  
 
 *Including these data sources:*
 Bitcoin Historical Data:
@@ -24,23 +24,34 @@ Additional Funding Rate Data, from Binance Futures API:
 - https://github.com/jesusgraterol/binance-futures-dataset-builder
 
 #### Methodology
-Bitcoin price prediction will be approached from many different angles.  
+Bitcoin price prediction was approached from many different angles.  By exploring various regression models using supervised learning.  And using gridsearchCV with cross validation of 5, to test various parameters for all the models being evaluated.  And neg_mean_absolute_error and mean_absolute_error being used for model evaluation.
 
-*And includes:
+*And includes:*
 
-Data import and clean up from exchange api's and csv data sources.
+**Data Cleanup and Feature Selection**
+Data Import from CSV Data Sources and Exchange API's
+Data cleanup, including dropping duplicates and setting Null values to 0
+Data aggregation of bitcoin minute data to daily data
+Data Feature Engineering columns 
+Data is split into training and test splits, with 20% set aside for testing
+And Data is encoded with a standard scaler for model processing
 
-Variance-Covariance matrixes to determine correlations with features.
+**Analysis includes**
+Variance-Covariance matrixes to determine correlations with column features
+Cross Validation of 5 and neg_mean_absolute error and mean_absolute_error for model evaluation
 
-Time-series Forecasting.
-
-Model Explorations Include:
-Sarimax
-GridSearchCV, Linear Regression, Ridge and Lasso Regression, Random Forest Regressor, Gradient Boosting Regressor, XGBoost Regressor
-
-Support Vector Regression Model.
-
-Hyperband tuner, Long Short-Term Memory (LSTM) Model
+**Models Evaluated Include**
+- Sarimax
+- GridSearchCV for:
+    - Support Vector Regression 
+    - Linear Regression 
+    - Ridge Regression
+    - Lasso Regression 
+    - Random Forest Regressor
+    - Gradient Boosting Regressor
+    - XGBoost Regressor
+- Hyperband tuner for: 
+    - Long Short-Term Memory (LSTM) Model
 
 #### Results
 Predicting tomorrow's closing price of Bitcoin, for a daily time frame.

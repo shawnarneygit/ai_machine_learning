@@ -58,6 +58,9 @@ And by using **GridsearchCV** with **cross validation of 5**, to tune parameters
 - Hyperband tuner for: 
     - Long Short-Term Memory (LSTM) Model
 
+**Model Evaluation Metrics**
+- Mean Absolute Error (MAE), the average of the absolute differences between predicted and actual values.  
+
 #### Results
 Predicting the next day’s Bitcoin closing price on a daily timeframe, our SARIMAX baseline achieved a MAPE of 1.77% and an MAE of $898.27. 
 

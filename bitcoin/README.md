@@ -50,7 +50,7 @@ The Mean Absolute Error (MAE) is 898.27.
 
 What this means in dollar terms is that our initial model, has an error rate within $898.27 US Dollars.
 
-![sarimax](images/sarimax_results.jpg)
+![sarimax](images/sarimax_results.png)
 
 #### Next steps
 What suggestions do you have for next steps?

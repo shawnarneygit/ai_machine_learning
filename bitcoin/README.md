@@ -26,7 +26,7 @@ Additional Funding Rate Data, from Binance Futures API:
 #### Methodology
 Bitcoin price prediction was approached from many different angles.  By exploring various regression models using supervised learning.  
 
-And using gridsearchCV with cross validation of 5, to test various parameters for all the models being evaluated.  And neg_mean_absolute_error and mean_absolute_error being used for model evaluation.
+And by using gridsearchCV with cross validation of 5, to tune parameters for evaluated models.  And neg_mean_absolute_error and mean_absolute_error was used for model evaluation.
 
 *And includes:*
 

@@ -66,7 +66,7 @@ Overall, SARIMAX remains a strong benchmark for daily Bitcoin price forecasts.
 ![sarimax](images/sarimax_results.png)
 
 #### Next steps
-Either the SARIMAX model or the Lasso regression can be used to forecast tomorrow’s Bitcoin closing price, with an expected mean absolute error of about $898.27.
+Either the SARIMAX model or the Lasso regression can be used to forecast tomorrow’s Bitcoin closing price, with an expected mean absolute error of ~$898.27.
 
 #### Outline of project
 

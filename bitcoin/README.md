@@ -48,7 +48,7 @@ Predicting tomorrow's closing price of Bitcoin, for a daily time frame.
 Initial Model using SARIMAX has a Mean Absolute Percentage Error (MAPE) of 1.77%.
 The Mean Absolute Error (MAE) is 898.27.
 
-What this means in dollar terms is that our initial model, has an error rate within $898.27 US Dollars.
+Our initial model, has an error rate within $898.27 US Dollars.
 
 ![sarimax](images/sarimax_results.png)
 
